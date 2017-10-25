@@ -24,6 +24,9 @@
   .smaller-image {
     width: 200px;
   }
+  .springgreen-background {
+    background-color: springgreen;
+  }
 </style>
 
 <!-- image with classes that change size and add border -->
@@ -34,29 +37,33 @@
 
 <!-- Demonstrate class 'handwriting' -->
 <p class='handwriting'>This is a paragraph with 'handwriting' class.</p>
+
+<!-- Div with background class -->
+<div class='springgreen-background'>
   
-<!-- Ordered list -->
-  <ol>
-    <li>Make application</li>
-    <li>Publish</li>
-    <li>Beam with pride</li>
-  </ol>
-  
-<!-- Unordered list -->
-  <ul>
-    <li>sky</li>
-    <li>clouds</li>
-    <li>horizon</li>
-  </ul>
-    
+  <!-- Ordered list -->
+    <ol>
+      <li>Make application</li>
+      <li>Publish</li>
+      <li>Beam with pride</li>
+    </ol>
+
+  <!-- Unordered list -->
+    <ul>
+      <li>sky</li>
+      <li>clouds</li>
+      <li>horizon</li>
+    </ul>
+</div>  
 
   
-<!-- Form not visible on Githubs-->
+<!-- Form with default checked checkbox and radio, button-->
 <form action='/submit'>
-  <label><input type='checkbox' name='checkbox1'>Checkbox option 1</input></label>
+  <label><input type='checkbox' name='checkbox1' checked>Checkbox option 1</input></label>
   <label><input type='checkbox' name 'checkbox1'>Checkbox option 2</input></label>
-  <label><input type='radio' name='radio1'>Radio option 1</input></label>
+  <label><input type='radio' name='radio1' checked>Radio option 1</input></label>
   <label><input type='radio' name='radio1'>Radio option 2</input></label>
+  <button type='submit'>Submit</input>
 </form>
   
 
